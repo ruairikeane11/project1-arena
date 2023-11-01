@@ -21,7 +21,11 @@ body {
 
 /* Header */
 header {
-    background-color: blue;
+    background-color: rgb(0, 255, 13);
+}
+
+h1 {
+    font-family: 'oswald',sans serif ;
 }
 
 /* Main */
