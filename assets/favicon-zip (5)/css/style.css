@@ -113,6 +113,8 @@ main {
     color: #3a3a3a;
 }
 
+/*rule sets*/
+
 #general {
     width: 90%;
     margin: 20px auto;
@@ -156,6 +158,11 @@ hr {
 }
 
 /* Comp dates */
+#comp-dates-title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
 
 #times {
     background: url(../images/image0\ \(5\).jpeg) no-repeat center/cover;
