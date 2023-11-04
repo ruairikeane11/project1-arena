@@ -155,6 +155,34 @@ hr {
     justify-content: center;
 }
 
+/* Comp dates */
+
+#times {
+    background: url(../images/image0\ \(5\).jpeg) no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* this will not wrap on screens of less than 400px wide
+    each div will expand */
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+}
+
+#times h2 {
+    color: #fafafa;
+}
+
+#times h3 {
+    color: #fafafa ;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
