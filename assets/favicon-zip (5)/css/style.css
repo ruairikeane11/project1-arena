@@ -215,6 +215,15 @@ hr {
     color: #3a3a3a;
 }
 
+/*Media query : large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -255,23 +264,36 @@ hr {
         right: 50px;
     }
 
-    #muay-thai, 
-#k1 {
+
+#muay-thai {
     display: flex;
-    direction: column;
+    direction:ltr;
     width: 100%;
 }
 
+#k1 {
+    display: flex;
+    direction: rtl;
+    width: 100%;
+}
+
+
 #muay-thai > div,
 #k1 > div {
-    width: 75%;
+    width: 40%;
 
 }
 
 #k1 > div {
-    text-align: end;
+    text-align:start;
     align-self: flex-end;
 }
+
+/* gallery */
+#photos {
+    column-count: 3;
+}
+
 
 }
 
