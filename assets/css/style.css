@@ -95,6 +95,7 @@ main {
 /*sign up page*/
 #signup {
     background-image: url(../images/image6.jpeg);
+    font-family: 'oswald', sans-serif;
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -351,6 +352,7 @@ hr {
 #signup {
     background-position: center;
     position: relative;
+    
 }
 
 #signup-form {
