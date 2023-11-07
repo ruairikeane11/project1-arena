@@ -28,12 +28,12 @@ h1, h2, h3 {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: rgba(241, 109, 107, .7);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow:0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -63,7 +63,7 @@ header a {
 /* Navbar styles with dropdown */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: inherit;
     width: 100%;
     left: 0;
     padding: 0 1rem;
