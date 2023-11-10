@@ -28,7 +28,7 @@ h1, h2, h3 {
 
 /* Header */
 header {
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107 );
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -74,7 +74,7 @@ nav {
 
 #nav-toggle:checked~nav {
     display: block;
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107 );
 }
 
 #nav-toggle {
@@ -181,7 +181,7 @@ color: #3a3a3a;
 #general {
     width: 100%;
     margin: 0px ;
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107 );
 }
 
 #general h2 {
@@ -233,7 +233,7 @@ hr {
 
 /* Comp dates */
 #comp-section {
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107 );
 }
 
 #comp-dates-title{
@@ -277,13 +277,13 @@ hr {
 
 #photos {
     line-height: 0;
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107 );
 }
 
 /* Footer */
 #social-networks {
     text-align: center;
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107 );
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
