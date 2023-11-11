@@ -133,10 +133,10 @@ color: #3a3a3a;
 
 /* hero section */
 #hero {
-    
+
     height: 500px;
     width: 100%;
-    background: url(../images/image0\ \(8\).jpeg) no-repeat center center/cover;
+    background: url(../images/image1000.jpeg) no-repeat center center/cover;
     position: relative;
 }
 
@@ -216,7 +216,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background:url(../images/image0\ \(7\).jpeg) no-repeat top center / cover;
+    background: url(../images/image111.jpeg) no-repeat center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -243,11 +243,11 @@ hr {
 }
 
 #times {
-    background: url(../images/image0\ \(5\).jpeg) no-repeat center/cover;
+    background: url(../images/image33) no-repeat center/cover;
     display: flex;
     flex-wrap: wrap;
-    
 }
+    
 
 #times div {
     color: #fafafa;
