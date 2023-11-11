@@ -6,7 +6,7 @@ Arena Combat is a website to promote one of Irelands newest amateur kick-boxing 
 It's goal is to connect Ireland's highlest level competing kick-boxing athletes throughout the country.
 The page is designed to appeal to both k1 and muay-thai competing athletes . The web page features a gallery section from previous Arena events and also a sign up section, for athletes who would like to compete in uncoming events.
 
-![Alt text](image.png)
+![Alt text](pictures/image.png)
 
 Visitor Goals :
 -
@@ -55,12 +55,12 @@ Visual Design
 Wireframes:
 I used https://balsamiq.com to construct a general structure for my home page
 
- ![Alt text](image-1.png)
+ ![Alt text](pictures/image-1.png)
 
 
 I made quick mock-ups of what the home page of the site wouls look like on a mobile phone.
 
- ![Alt text](image-2.png)
+ ![Alt text](pictures/image-2.png)
 
  Colours
  -
@@ -71,12 +71,12 @@ Fonts
 -
 The primary font that i used throughout this website was Oswald. This is because the font is captivating and it catches the viewers attention, which is one of the main goals of the website.
 
-![Alt text](image-3.png)
+![Alt text](pictures/image-3.png)
 
 
 I also used the Lato font in some parts of the page, for example, in the menu section Lato was used to represent different pages in the website. This is because it is not essential information for the viewer. Therefore the lesser captivating font, Lato was used.
 
-![Alt text](image-4.png)
+![Alt text](pictures/image-4.png)
 
 Icons:
 -
@@ -93,11 +93,11 @@ The site does rely heavily on images. The home page includes three images. The h
 The gallery section contains several images. The page is responsive and the column-count of photographs will increase as the viewing screen size increases also.
 
 
-![Alt text](image-5.png)
+![Alt text](pictures/image-5.png)
 
 There is also a background image used in the sign-up page.
 
-![Alt text](image-6.png)
+![Alt text](pictures/image-6.png)
 
 Features :
 -
@@ -107,7 +107,7 @@ Features :
  The nav bar has been designed very simply. On a mobile it will will feature a drop down menu as shwon below.
 
  
-![Alt text](image-7.png)
+![Alt text](pictures/image-7.png)
 
 
 
@@ -115,7 +115,7 @@ Features :
  On a desk top this dropdown feature will dissapear and the navbar will display the three pages of the website.
 
  
-![Alt text](image-8.png)
+![Alt text](pictures/image-8.png)
 
  Footer:
  -
@@ -128,14 +128,14 @@ Features :
  The form feature was used for the last page of the website. A radio-button and a select box feature was also added to give variety to the section.
 
 
-![Alt text](image-9.png)
+![Alt text](pictures/image-9.png)
 
  Gallery:
  -
  The gallery page has been made responsive. If viewing on mobile, the column-count of photos will be one. When viewing on a desk-top, the column-count wil increase to three.
 
 
- ![Alt text](image-10.png)
+ ![Alt text](pictures/image-10.png)
  
  Mobile Testing :
  -
@@ -144,7 +144,7 @@ Features :
 
  - I also used the lighthouse feature on chrome frequently to see how my work looks on mobile devices
 
-![Alt text](image-11.png)
+![Alt text](pictures/image-11.png)
 
  Desktop Testing :
  -
@@ -153,7 +153,7 @@ Features :
  - I also used the lighthouse feature on chrome to see how my website looked on the browser.
 
 
-![Alt text](image-12.png)
+![Alt text](pictures/image-12.png)
 
  Validation :
  -
@@ -168,13 +168,13 @@ Features :
 For the competition dates section, I used a similar design to that of the Love Running meet up times section.
 
 
-![Alt text](image-13.png)
+![Alt text](pictures/image-13.png)
 
 For my project. I customised the code to make the divs appear in a different way to the love running project on different screen sizes. I also used my own image and text. Below, you can see how I used media queries to make the content appear different on 3 different screen sizes.
 
-![Alt text](image-17.png)
+![Alt text](pictures/image-17.png)
 
-![Alt text](image-18.png)
+![Alt text](pictures/image-18.png)
 
  I also took inspiration from the Love Running sign-up pages 
 
@@ -183,7 +183,7 @@ For my project. I customised the code to make the divs appear in a different way
 For my own sign up page. I used a form element with different inputs like a select box and a radiobutton. I also used my own image as the background. I added a transperant red color as the background color for the sign-up box to create contarst on the page. 
 
 
-![Alt text](image-19.png)
+![Alt text](pictures/image-19.png)
 
  Deployment Instructions
  -
