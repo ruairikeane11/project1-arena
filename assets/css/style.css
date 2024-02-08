@@ -269,6 +269,11 @@ hr {
     color: #fafafa;
 }
 
+#times div p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 #times h3 {
     color: #fafafa;
 }
@@ -306,6 +311,15 @@ hr {
         column-count: 2;
         column-gap: 0;
     }
+
+    #times {
+        background: url(../images/image33) no-repeat center/cover;
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+    }
+
+
 }
 
 
@@ -377,6 +391,7 @@ hr {
         text-align: start;
         align-self: flex-end;
     }
+
 
     /* Gallery */
     #photos {
