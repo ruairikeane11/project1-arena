@@ -49,6 +49,8 @@ The page is designed to appeal to both k1 and muay-thai competing athletes . The
 4. As someone who is inerested in the event, I expect to find their social media links.
 5. If I want to go as a viewer, I expect to find out information about the next event.
 
+![alt text](image-15.png)
+
 ## Visual Design
 
 ### Wireframes:
@@ -57,7 +59,7 @@ The page is designed to appeal to both k1 and muay-thai competing athletes . The
 
 I started to create mock ups of my website by hand. I experimented with different designs on a desk-top computer and a mobile phone.
 
-![alt text](image-3.png) 
+![alt text](image-11.png)  ![alt text](image-12.png)
 
 
 #### Balsamiq
@@ -75,18 +77,22 @@ After creating mock-ups by hand I used Balsamiq to create more wireframes. I sta
 
 ## Fonts
 
-The primary font that i used throughout this website was Oswald. This is because the font is captivating and it catches the viewers attention, which is one of the main goals of the website.
+The primary font that I used throughout this website was 'Oswald'. This is because the font is captivating and it catches the viewers attention, which is one of the main goals of the website.
 
 ![alt text](image-10.png)
 
 
+I also used the Lato font in some parts of the page, for example, in the menu section Lato was used to represent different pages in the website. This font strongly contrasts with 'Oswald' as shown in the screenshot beneath. Both fonts were imported from Google Fonts 
 
-I also used the Lato font in some parts of the page, for example, in the menu section Lato was used to represent different pages in the website. This is because it is not essential information for the viewer. Therefore the lesser captivating font, Lato was used.
+![alt text](image-9.png)
+
+![alt text](image-16.png)
+
 
 
 ## Icons:
 
-The icons that were used in this project  were taken from wwww.fontawesome.com.The icons are located in the footer and they provide links to social media platoforms.
+The icons that were used in this project  were taken from (https://fontawesome.com). The icons are located in the footer and they provide links to social media platoforms.
 
 ![alt text](image-2.png)
 
@@ -158,29 +164,25 @@ There is also a captivating background image used in the sign-up page.
 
  # Credits :
  
+ ## Love Running Walkthrough Project
 
  For this project, I took a lot of inspiration from the Love Running walkthrough project. I incorporated the general structure of the Love running website into my own. For example, I included a home page, a gallery page, and a sign-up page. 
 
-For the competition dates section, I used a similar design to that of the Love Running meet up times section.
+For the competition dates section, I used a similar design to that of the Love Running meet up times section. Here is the code I used to make this section responsive.
+
+![alt text](image-13.png)
 
 
 
+For my sign up page. I used a form element with different inputs like a select box and a radiobutton. I also used my own image as the background. I added a transperant red color as the background color for the sign-up box to create contarst on the page. Here is the CSS code I used to style my form.
 
-For my project. I customised the code to make the divs appear in a different way to the love running project on different screen sizes. I also used my own image and text. Below, you can see how I used media queries to make the content appear different on 3 different screen sizes.
-
-
-
- I also took inspiration from the Love Running sign-up pages 
-
-
- 
-For my own sign up page. I used a form element with different inputs like a select box and a radiobutton. I also used my own image as the background. I added a transperant red color as the background color for the sign-up box to create contarst on the page. 
+![alt text](image-14.png)
 
 
 
- Deployment Instructions
- -
- 1. Click the link https://github.com/ruairikeane11/project1-arena.git.
+# Deployment Instructions
+
+1. Click the link https://github.com/ruairikeane11/project1-arena.git.
 
 2. When you can see web page, click on the settings button on the top.
 
