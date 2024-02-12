@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -14,28 +14,26 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: black;
-    font-family: 'lato', sans-serif;
+    color: #3a3a3a;
+    font-family: 'lato',sans-serif;
 }
 
-h1,
-h2,
-h3 {
-    font-family: 'oswald', sans serif;
+h1, h2, h3 {
+    font-family: 'oswald',sans serif ;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black;
+    color: #252525;
 }
 
 
 /* Header */
 header {
-    background-color: rgba(241, 109, 107);
+    background-color: rgba(241, 109, 107 );
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #000000;
+    box-shadow:0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -43,7 +41,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color:inherit;
 }
 
 
@@ -52,15 +50,15 @@ header a {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-
+    
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
 .active {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar styles with dropdown */
@@ -69,21 +67,21 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px black;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
 }
 
 #nav-toggle:checked~nav {
     display: block;
-    background-color: rgba(241, 109, 107);
+    background-color: rgba(241, 109, 107 );
 }
 
 #nav-toggle {
     display: none;
 }
 
-.nav-toggle-label {
+.nav-toggle-label{
     font-size: 2rem;
 }
 
@@ -106,14 +104,14 @@ main {
 }
 
 #signup-form {
-    color: black;
+    color:#3a3a3a;
     background-color: rgba(241, 109, 107, .7);
     padding: 30px;
     margin-top: 40px;
 }
 
-#signup-form>h2 {
-    color: black;
+#signup-form >h2 {
+color: #3a3a3a;
 }
 
 
@@ -153,14 +151,13 @@ main {
     padding-left: 10px;
 }
 
-#cover-text>h2,
-#cover-text>h3 {
-    color: black
+#cover-text > h2, #cover-text > h3 {
+    color:#3a3a3a
 }
 
 /* About Us */
 #about-us {
-    background-color: black
+    background-color: #3a3a3a;
 }
 
 #about-us h2 {
@@ -183,8 +180,8 @@ main {
 
 #general {
     width: 100%;
-    margin: 0px;
-    background-color: rgba(241, 109, 107);
+    margin: 0px ;
+    background-color: rgba(241, 109, 107 );
 }
 
 #general h2 {
@@ -196,26 +193,26 @@ main {
 
 #general h3 {
     text-align: center;
-
+    
 }
 
-#muay-thai>div,
-#k1>div {
+#muay-thai > div,
+#k1 > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
 
 #rule-sets ul {
-    padding: 10px;
+    padding: 0 20px;
     font-family: oswald, sans-serif;
     text-align: center;
     list-style-type: none;
-    font-size: 105%;
+    font-size: 120%;
 }
 
 hr {
-    border-top: 2px solid black;
-    margin: 2px 0;
+    border-top: 2px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 #circle-cover-bg {
@@ -224,7 +221,7 @@ hr {
     width: 90vw;
     margin-bottom: 20px;
     border-radius: 50%;
-    max-width: 280px;
+    max-width: 280px ;
     max-height: 280px;
 }
 
@@ -236,10 +233,10 @@ hr {
 
 /* Comp dates */
 #comp-section {
-    background-color: rgba(241, 109, 107);
+    background-color: rgba(241, 109, 107 );
 }
 
-#comp-dates-title {
+#comp-dates-title{
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
@@ -250,7 +247,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
 }
-
+    
 
 #times div {
     color: #fafafa;
@@ -262,40 +259,31 @@ hr {
     flex-basis: 200px;
     flex-grow: 1;
     border: 2px solid white;
-    padding-bottom: 0;
 }
 
 #times h2 {
     color: #fafafa;
 }
 
-#times div p {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
 #times h3 {
-    color: #fafafa;
+    color: #fafafa ;
 }
 
 /* gallery */
 #photos img {
     width: 100%;
-    height: auto;
+    line-height: 1em;
 }
 
 #photos {
-    background-color: transparent;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    line-height: 0;
+    background-color: rgba(241, 109, 107 );
 }
 
 /* Footer */
 #social-networks {
-    bottom: 0;
     text-align: center;
-    background-color: rgba(241, 109, 107);
+    background-color: rgba(241, 109, 107 );
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
@@ -319,7 +307,6 @@ hr {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
     nav {
         display: block;
@@ -333,7 +320,7 @@ hr {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
     }
 
@@ -359,49 +346,43 @@ hr {
     }
 
 
-    #muay-thai {
+#muay-thai {
+    
+    display: flex;
+    direction: inherit;
+    width: 100%;
+    
+}
 
-        display: flex;
-        direction: inherit;
-        width: 100%;
-
-    }
-
-    #k1 {
-        display: flex;
-        direction: inherit;
-        width: 100%;
-    }
-
-
-    #muay-thai>div,
-    #k1>div {
-        width: 100%;
-        text-align: center;
-
-    }
-
-    #k1>div {
-        text-align: start;
-        align-self: flex-end;
-    }
+#k1 {
+    display: flex;
+    direction: inherit;
+    width: 100%;
+}
 
 
-    #times div {
-        padding: 50px;
-        font-size: 140%;
-    }
-
+#muay-thai > div,
+#k1 > div {
+    width: 100%;
+    text-align: center;
 
 }
 
+#k1 > div {
+    text-align:start;
+    align-self: flex-end;
+}
+
 /* Gallery */
+#photos {
+    column-count: 3;
+}
 
 /* Form */
 #signup {
     background-position: center;
     position: relative;
-
+    
 }
 
 #signup-form {
@@ -419,26 +400,26 @@ hr {
     background-color: #fafafa;
     color: #454b1b;
 }
+}
 
 
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
+    #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
 }
 
 /* Large devices ( 1200px and wider) */
 @media screen and (min-width: 1200px) {
-
     /* reasons section */
-    #rule-sets {
+    #rule-sets{
         display: flex;
         flex-direction: row;
     }
 
-    #rule-sets>div {
+    #rule-sets > div {
         flex: 1;
     }
 
@@ -447,24 +428,18 @@ hr {
     }
 
     #muay-thai {
-        order: 1;
+         order: 1;
     }
 
-    #muay-thai>div {
+    #muay-thai > div {
         align-self: flex-start;
     }
 
-    #k1>div {
-        align-self: flex-start;
+    #k1 > div {
+       align-self: flex-start;
     }
 
     #times {
         flex-grow: 1;
-    }
-
-    #rule-sets ul {
-        padding: 30px 30px;
-        font-size: 150%;
-        line-height: 40px;
     }
 }
