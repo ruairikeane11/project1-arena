@@ -1,9 +1,7 @@
 # Project 1 - Arena Combat Ireland
 
-![alt text](image.png)
 
-
-Arena Combat is a website to promote one of Irelands newest amateur kick-boxing promotions. It's goal is to connect Ireland's highlest level competing kick-boxing athletes throughout the country. The page is designed for both k1 and muay-thai competing athletes. The web page features a gallery section from previous Arena events and also a sign up section, for athletes who would like to compete in upcoming events.
+###### Arena Combat is a website to promote one of Irelands newest amateur kick-boxing promotions. It's goal is to connect Ireland's highlest level competing kick-boxing athletes throughout the country. The page is designed for both k1 and muay-thai competing athletes. The web page features a gallery section from previous Arena events and also a sign up section, for athletes who would like to compete in upcoming events.
 
 ![Alt text](pictures/image.png)
 
@@ -125,7 +123,7 @@ There is also a background image used in the sign-up page.
 
 ![alt text](image-10.png)
 
-# Features 
+# 2. Features 
 ## Navbar
 The nav bar has been designed very simply. On a mobile it will will feature a burger icon menu as shown below.On a desk top this dropdown feature will dissapear and the navbar will display the three pages of the website.
 
@@ -146,7 +144,7 @@ The nav bar has been designed very simply. On a mobile it will will feature a bu
 
  ![alt text](image-12.png)
 
- # Testing
+ # 3. Testing
  ## Mobile Testing
  - I constantly checked how the site functioned on my Iphone throughout the project.
  - I frequently sent the website to friends and was welcome to criticism.
@@ -156,12 +154,12 @@ The nav bar has been designed very simply. On a mobile it will will feature a bu
  ![alt text](image-13.png)
 
 
-
  ## Desktop Testing :
  - As I completed this project on a laptop, I frequently opened the preview to see how the site functioned.
  - I also asked relatives to open a preview on their desktops to examine how it looked.
  - I tested the website in multiple browsers.
  - I also used the lighthouse feature on chrome to see how my website looked on the browser.
+ - All features were tested manually, for example, the form will not submit without providing valid information.
 
  ![alt text](image-14.png)
 
@@ -177,40 +175,51 @@ The nav bar has been designed very simply. On a mobile it will will feature a bu
  - HTML checked with W3C HTML5 Validator until there was no errors.
  - CSS checked with W3C CSS Validator until there was no errors.
 
-# Credits :
- -
+# 4. Credits :
+## Love Running Walkthrough Project
 
- For this project, I took a lot of inspiration from the Love Running walkthrough project. I incorporated the general structure of the Love running website into my own. For example, I included a home page, a gallery page, and a sign-up page. 
-
-For the competition dates section, I used a similar design to that of the Love Running meet up times section.
+For this project, I took a lot of inspiration from the Love Running walkthrough project. I incorporated the general structure of the Love running website into my own. For example, I included a home page, a gallery page, and a sign-up page. I customised my website to fit my intended design while keeping the same general structure as the Love Running Project, as I thought it worked well with the features I wanted to include.
 
 
-![Alt text](pictures/image-13.png)
 
-For my project. I customised the code to make the divs appear in a different way to the love running project on different screen sizes. I also used my own image and text. Below, you can see how I used media queries to make the content appear different on 3 different screen sizes.
+# 5. Deployment Instructions
 
-![Alt text](pictures/image-17.png)
+## Local
+1. Copy the repository here - (https://github.com/ruairikeane11/project1-arena.git)
+2. Open your IDE. I used Gitpod (https://gitpod.io/workspaces)
 
-![Alt text](pictures/image-18.png)
+3. Paste the copied repositry into the workspace bar.
 
- I also took inspiration from the Love Running sign-up pages 
+![alt text](image-17.png)
 
+4. Click continue, and the repository should open.
 
- 
-For my own sign up page. I used a form element with different inputs like a select box and a radiobutton. I also used my own image as the background. I added a transperant red color as the background color for the sign-up box to create contarst on the page. 
+5. Once the repository is open in your IDE, type 'python3 -m http.server' into the teminal.
 
+![alt text](image-18.png)
 
-![Alt text](pictures/image-19.png)
+6. Click 'Open Browser'. You should now be able to see that the website is displaying in the browser.
 
- Deployment Instructions
- -
- 1. Click the link https://github.com/ruairikeane11/project1-arena.git.
+![alt text](image-16.png)
 
-2. When you can see web page, click on the settings button on the top.
+## Github Deployment
 
-3. Gitub pages will update from the master branch by default.
- 
-4. On the left hand side of the page there will be a menu. Click on the pages section.
+1. Make sure to have an account before using Github.
 
-5. A link to the website should be now visible on the top of the page.
+2. Copy the link to the repository (https://github.com/ruairikeane11/project1-arena)
+
+![alt text](image-19.png)
+
+3. Once here, click the 'Settings' tab.
+
+4. Select 'Pages' on the left hand side of the page.
+
+5. Select the 'Master Branch' as the source and 'Confirm' your selection.
+
+6. After a few minutes, a link to the live website should show at the top of the page.
+
+![alt text](image-20.png)
+
+# 6. Contact
+Please contact at ruairi.rk@icloud.com.
 
